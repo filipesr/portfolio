@@ -1,5 +1,485 @@
+<!DOCTYPE html>
 <html>
-<body style="margin: 0;">
-    <iframe name="teste" src="http://162.144.39.121/plesk-site-preview/crystall.com.br/Publicacao.aspx?previa=t" width="100%" height="100%" frameborder=0 scrolling=yes>
-</iframe>
-</body></html>
+
+<head>
+    <title>Hello World!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap 4.0.0-beta.2 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <!-- main style -->
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=2018.09.20">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class='slider-navigation'>
+            <div class='nav-pointer draggable'>
+                0/0
+            </div>
+        </div>
+    </header>
+    <div class='site-container'>
+        <!-- select style button -->
+        <div class="btn-group" id="changestyle">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <span id="selstyle">Style Space</span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#" data-val="default">Style Block</a></li>
+                <li><a class="dropdown-item" href="#" data-val="space">Style Space</a></li>
+                <li><a class="dropdown-item" href="#" data-val="snow">Style Snow</a></li>
+            </ul>
+        </div>
+        <section class='intro'>
+            <div id='particles-js'></div>
+            <div class='wrap'>
+                <div class='content'>
+                    <div class="profile-card">
+                        <header>
+                            <!-- avatar -->
+                            <a><img src="https://scontent.fguz2-1.fna.fbcdn.net/v/t1.0-1/p160x160/61610697_2251674818254665_8644962468910596096_n.jpg?_nc_cat=108&_nc_oc=AQnj0UdUoOCasL1Y1kBpC6FH96-Njl4W6TRJ-M7lpxJM-tWnM2kEz6tpCKfNEueesDk&_nc_ht=scontent.fguz2-1.fna&oh=82a932f94cf7b2dbaf14142d6114f98b&oe=5DFF720A" class="unselectable"></a>
+                            <!-- name -->
+                            <h1 class="unselectable">Filipe S Rezende</h1>
+                            <!-- role -->
+                            <h2 class="unselectable">C#/Java/Delphi Developer</h2>
+                        </header>
+                        <div class="profile-bio">
+                            <p class="unselectable">
+                                Passionate about Jesus, family and technology
+                                <br>Music Enthusiast
+                            </p>
+                        </div>
+                        <!-- social links -->
+                        <ul class="profile-social-links">
+                            <li><a target="_blank" href="https://br.linkedin.com/in/fsrezende/pt">
+                                    <i class="fa fa-lg fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li><a target="_blank" href="https://stackexchange.com/users/3327458/fsrezende?tab=profile">
+                                    <i class="fa fa-lg fa-stack-overflow"></i>
+                                </a>
+                            </li>
+                            <li><a target="_blank" href="https://github.com/filipesr">
+                                    <i class="fa fa-lg fa-github-alt"></i>
+                                </a>
+                            </li>
+                            <li><a target="_blank" href="https://www.facebook.com/filipe.rezende">
+                                    <i class="fa fa-lg fa-facebook"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="http://www.atenasnoticias.com.br/imagens/capas/noticias/vendanovaaerea.jpg"></div>
+        <section>
+            <div class="about-me">
+                <div class="text-center">
+                    <img class="unselectable" src="./img/about-me.png" height="100" width="550">
+                    <br><br>
+                </div>
+                <div class="clearfix"></div>
+                <div class="about-me__content" id="terminal-start">
+                    <p>Last login: Thu Oct 12 00:28:38 2017 from
+                        cpe44d9e79bd14b-cma84e3fd1a7d0.cpe.net.cable.rogers.com</p>
+                    <pre style="border: none;">
+         __|  __|_  )
+         _|  (     /   Amazon Linux AMI
+        ___|\___|___|
+
+Amazon Linux version 2017.09 is available.
+</pre>
+                    <br><br>
+                    <div class="command">
+                        <!-- email -->
+                        <p>echo $email</p>
+                        <span class="hideme">email: contato@fsrezende.com.br</span>
+                        <!-- phone -->
+                        <p>echo $phone</p>
+                        <span class="hideme">phone: +55 (28) 99909-4076</span>
+                        <!-- address -->
+                        <p>echo $address</p>
+                        <span class="hideme">address: Venda Nova do Imigrante-ES, Brasil</span>
+                        <!-- education -->
+                        <p>echo $education</p>
+                        <span class="hideme">University of Espírito Santo • 2014 - 2016<br>
+                            MSc: Master Degree in Informatic</span>
+                        <!-- eligible_to_work -->
+                        <p>echo $eligible_to_work</p>
+                        <span class="hideme">Permanent Resident of Brazil, but accept move out</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="parallax-window-half" data-parallax="scroll" data-image-src="https://wallpapercave.com/wp/wp1513288.jpg"></div>
+        <section class="flx-center">
+            <div class="text-center">
+
+                <!-- Block 5 (SHA-256 blockchain) -->
+                <div class="one-block latest-block">
+                    <p class="h4 text-center">Block #: 006</p>
+                    <p><label>Data:</label></p>
+                    <div class="block-data">
+                        <p>
+                            <label>Title:</label><b>Software Developer</b></p>
+                        <p>
+                            <label>Company:</label>C2TI</p>
+                        <p>
+                            <label>Stack:</label>Java, C#, MySQL and SQL Server</p>
+                        <p>
+                            <label>Time:</label>feb 2019 - Present</p>
+                    </div>
+                    <div>
+                        <br>
+                        <p class="truncate">
+                            <small><label>Hash: </label>"End Block"</small>
+                            <br>
+                            <small><label>Previous Hash: </label>964c3a9c26762dce89d124381b91f0469fb549915077377ba943b60a78e2eb54</small>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Block 5 (SHA-256 blockchain) -->
+                <div class="one-block">
+                    <p class="h4 text-center">Block #: 005</p>
+                    <p><label>Data:</label></p>
+                    <div class="block-data">
+                        <p>
+                            <label>Title:</label><b>Autonom Developer</b></p>
+                        <p>
+                            <label>Company:</label>FSRezende.com.br</p>
+                        <p>
+                            <label>Stack:</label>C#, Delphi, MySQL, SQLite</p>
+                        <p>
+                            <label>Time:</label>ago 2014 - Present</p>
+                    </div>
+                    <div>
+                        <br>
+                        <p class="truncate">
+                            <small><label>Hash: </label>964c3a9c26762dce89d124381b91f0469fb549915077377ba943b60a78e2eb54</small>
+                            <br>
+                            <small><label>Previous Hash: </label>c9e0d20f8660f77636c18bed30d0331ccee6724e03ccbc37d7d73fdc13326a51</small>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Block 4 (SHA-256 blockchain) -->
+                <div class="one-block">
+                    <p class="h4 text-center">Block #: 004</p>
+                    <p><label>Data:</label></p>
+                    <div class="block-data">
+                        <p>
+                            <label>Title:</label><b>System Analyst</b></p>
+                        <p>
+                            <label>Company:</label>Avista Credit Card S/A</p>
+                        <p>
+                            <label>Stack:</label>Java (Android) and Oracle</p>
+                        <p>
+                            <label>Time:</label>Jul 2012 - jul 2014</p>
+                    </div>
+                    <div>
+                        <br>
+                        <p class="truncate">
+                            <small><label>Hash: </label>c9e0d20f8660f77636c18bed30d0331ccee6724e03ccbc37d7d73fdc13326a51</small>
+                            <br>
+                            <small><label>Previous Hash: </label>b2d7beff5177094f4a4aceb7c9bf1cc6434cd5a2b8d68cc0a572ac2e963cb2a2</small>
+                        </p>
+                    </div>
+                </div>
+
+                <br>
+                <!-- Block 3 (SHA-256 blockchain) -->
+                <div class="one-block hide-mobile">
+                    <p class="h4 text-center">Block #: 003</p>
+                    <p><label>Data:</label></p>
+                    <div class="block-data">
+                        <p>
+                            <label>Title:</label><b>System Analyst</b></p>
+                        <p>
+                            <label>Company:</label>Engesis - Logistic System</p>
+                        <p>
+                            <label>Stack:</label>Asp.Net and Oracle</p>
+                        <p>
+                            <label>Time:</label>Jan 2009 - jul 2012</p>
+                    </div>
+                    <div>
+                        <br>
+                        <p class="truncate">
+                            <small><label>Hash: </label>b2d7beff5177094f4a4aceb7c9bf1cc6434cd5a2b8d68cc0a572ac2e963cb2a2</small>
+                            <br>
+                            <small><label>Previous Hash: </label>29aa94f65fa959c35fb44427d09018b95117be94b0d7eeb921e79c3cda20d174</small>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Block 2 (SHA-256 blockchain) -->
+                <div class="one-block hide-mobile">
+                    <p class="h4 text-center">Block #: 002</p>
+                    <p><label>Data:</label></p>
+                    <div class="block-data">
+                        <p>
+                            <label>Title:</label><b>Developer Trainee</b></p>
+                        <p>
+                            <label>Company:</label>Mag Imports S/A</p>
+                        <p>
+                            <label>Stack:</label>Delphi and SQL Server</p>
+                        <p>
+                            <label>Time:</label>Jan 2008 - jan 2009</p>
+                    </div>
+                    <div>
+                        <br>
+                        <p class="truncate">
+                            <small><label>Hash: </label>29aa94f65fa959c35fb44427d09018b95117be94b0d7eeb921e79c3cda20d174</small>
+                            <br>
+                            <small><label>&nbsp;</label>"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"</small>
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Block 1 (SHA-256 blockchain) -->
+                <div class="one-block hide-mobile">
+                    <p class="h4 text-center">Block #: 001</p>
+                    <p><label>Data:</label></p>
+                    <div class="block-data">
+                        <p>
+                            <label>Title:</label><b>Teacher of informatic</b></p>
+                        <p>
+                            <label>Company:</label>Private</p>
+                        <p>
+                            <label>Stack:</label>Windows, Office and Internet</p>
+                        <p>
+                            <label>Time:</label>Jan 2002 - jan 2009</p>
+                    </div>
+                    <div>
+                        <br>
+                        <p class="truncate">
+                            <small><label>Hash: </label>6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b</small>
+                            <br>
+                            <small><label>&nbsp;</label>"Genesis Block"</small>
+                        </p>
+                    </div>
+                </div>
+                
+
+                <div class="text-center h5">SHA-256 blockchain</div>
+            </div>
+        </section>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="https://wallpaperplay.com/walls/full/4/4/5/77448.jpg"></div>
+        <!-- =================== script =================== -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+        <script src="./lib/parallax.js-1.4.2/parallax.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+
+        <!-- particles js -->
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+        <!-- bootstrap 4.0.0-beta.2 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+            crossorigin="anonymous"></script>
+
+        <!-- main js file -->
+        <script src="./js/main.js"></script>
+
+        <script>
+            $(document).ready(function () {
+
+                // random style on page load
+                let display_text = ''
+                switch (Math.round(Math.random() * 2 + 1)) {
+                    case 1:
+                        styleDefault();
+                        display_text = 'Style Block'
+                        break;
+                    case 2:
+                        styleSpace();
+                        display_text = 'Style Space'
+                        break;
+                    case 3:
+                        styleSnow();
+                        display_text = 'Style Snow'
+                        break;
+                    default:
+                        styleSpace();
+                        display_text = 'Style Block'
+                }
+                $('#selstyle').text(display_text);
+
+                $('#changestyle .dropdown-menu a').click(function () {
+                    var style = $(this).data('val');
+                    switch (style) {
+                        case 'default':
+                            styleDefault();
+                            break;
+                        case 'space':
+                            styleSpace();
+                            break;
+                        case 'snow':
+                            styleSnow();
+                            break;
+                        default:
+                            styleSpace();
+                    }
+                    $('#selstyle').text($(this).text());
+                });
+
+                /*-------------------------------
+                    terminal linux style
+                -------------------------------*/
+                var about_me_content_displayed = false;
+                var $lines = $('.command p');
+                $lines.hide();
+
+                var lineContents = [];
+                var output = [];
+
+                var terminal = function () {
+                    var skip = 0;
+                    typeLine = function (idx) {
+                        idx == null && (idx = 0);
+                        var element = $lines.eq(idx);
+                        var content = lineContents[idx];
+                        if (typeof content == "undefined") {
+                            $('.skip').hide();
+                            return;
+                        }
+                        var charIdx = 0;
+                        var typeChar = function () {
+                            var rand = Math.round(Math.random() * 150) + 20;
+
+                            setTimeout(function () {
+                                var char = content[charIdx++];
+                                element.append(char);
+                                if (typeof char !== "undefined")
+                                    typeChar();
+                                else {
+                                    element.append('<br/><span class="output">' + output[idx] + '</span>');
+                                    element.removeClass('active');
+                                    typeLine(++idx);
+                                }
+                            }, skip ? 0 : rand);
+                        }
+                        element.append('[ec2-user@ip-127-0-0-1 ~]$ ').addClass('active');
+                        typeChar();
+                    }
+
+                    $lines.each(function (i) {
+                        lineContents[i] = $(this).text();
+                        output[i] = $(this).next('span').html();
+                        $(this).text('').show();
+                    });
+                    typeLine();
+                }
+
+                $(window).scroll(function () {
+                    var hT = $('#terminal-start').offset().top,
+                        hH = $('#terminal-start').outerHeight(),
+                        wH = $(window).height(),
+                        wS = $(this).scrollTop() - 250;
+                    if (wS > (hT + hH - wH) && !about_me_content_displayed) {
+                        about_me_content_displayed = true;
+                        terminal();
+                    }
+                });// end terminal style -------
+
+                $('section').each(function () {
+                    $('.slider-navigation').prepend('<div class="tick"></div>');
+                });
+
+                $('.tick').on('click', function () {
+                    var tickIndex = $(this).index();
+                    $('body').scrollTop($(window).height() * tickIndex);
+                });
+
+                updatePos();
+            }); // end document ready -------
+
+            var isDragging = false;
+            var sliderTop, pointerPos, currentSection;
+
+            var bodyHeight = $('body').height();
+            var sliderHeight = $('.slider-navigation').height();
+            var elementHeight = $('section').height();
+            var sectionAmount = $('section').length;
+            var scale = (bodyHeight - (elementHeight)) / (sliderHeight - $('.nav-pointer').outerHeight());
+
+            var waitForFinalEvent = (function () {
+                var timers = {};
+                return function (callback, ms, uniqueId) {
+                    if (!uniqueId) {
+                        uniqueId = "resize";
+                    }
+                    if (timers[uniqueId]) {
+                        clearTimeout(timers[uniqueId]);
+                    }
+                    timers[uniqueId] = setTimeout(callback, ms);
+                };
+            })();
+
+            function updatePos() {
+                currentSection = $(window).scrollTop() / elementHeight;
+                currentSectionNum = Math.ceil(currentSection + 0.01);
+                sliderTop = $(window).scrollTop() / scale;
+                $('.nav-pointer').css('top', sliderTop).text(currentSectionNum + '/' + sectionAmount);
+            }
+
+            function sliderMove(e) {
+                $('body').scrollTop(parseInt(e) * scale);
+            }
+
+            $(window).scroll(function () {
+                if (!isDragging) {
+                    updatePos();
+                }
+            });
+
+            $(window).resize(function () {
+                waitForFinalEvent(function () {
+                    bodyHeight = $('body').height();
+                    sliderHeight = $('.slider-navigation').height();
+                    elementHeight = $('section').height();
+                    sectionAmount = $('section').length;
+                    scale = (bodyHeight - (elementHeight)) / (sliderHeight - $('.nav-pointer').outerHeight());
+
+                    updatePos();
+                }, 500, "resizing");
+            });
+
+            // $(".draggable").draggable({
+            //  axis: "y",
+            //  containment: "parent",
+            //  start: function() {
+            //      isDragging = true;
+            //      $('body').addClass('dragging');
+            //  },
+            //  drag: function() {
+            //      pointerPos = $(this).css('top');
+            //      sliderMove(pointerPos);
+            //      updatePos();
+            //  },
+            //  stop: function() {
+            //      isDragging = false;
+            //      $('body').removeClass('dragging');
+            //  }
+            // });
+
+            // Steve Jobs Quotes
+            console.log("\n \t Your work is going to fill a large part of your life,\n and the only way to be " +
+                "truly satisfied is to do what you \n believe is great work. And the only way to do great" +
+                " work \n is to love what you do. If you haven't found it yet, keep \n looking. Don't settle." +
+                " As with all matters of the heart, \n you'll know when you find it.\n\n\n \t\t\t\t\t\t\t\t\t\t\t " +
+                "Steve Jobs \n\n");
+
+        </script>
+</body>
+
+</html>
